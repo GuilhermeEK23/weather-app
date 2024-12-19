@@ -1,0 +1,95 @@
+@media (max-width: 1024px) {
+  .app-container {
+    grid-template-columns: 100%;
+    padding: 15px;
+    column-gap: 0;
+    row-gap: 40px;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .showcase-container {
+    position: relative;
+    margin: 50px 0;
+    padding: 10px;
+  }
+
+  .showcase-container > img {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    width: 170px;
+  }
+
+  .showcase-text > h2:first-child {
+    font-size: 2rem;
+  }
+
+  .showcase-text > h2:last-child {
+    font-size: 3rem;
+  }
+
+  .showcase-text > p {
+    font-size: 0.825rem;
+    margin-bottom: 10px;
+  }
+
+  .hourly-forecast-container {
+    padding: 20px;
+    overflow-x: scroll;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .hour-weather-item > img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .hour-weather-item > p:first-child {
+    font-size: 0.825rem;
+    text-align: center;
+  }
+
+  .hour-weather-item > p:last-child {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .weather-details-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+  }
+
+  .weather-detail-item {
+    padding: 25px;
+    min-height: 130px;
+  }
+
+  .weather-detail-item > p {
+    font-size: 0.825rem;
+  }
+  
+  .weather-detail-item > div > p {
+    font-size: 1.5rem;
+  }
+  
+  .weather-detail-item > div > p > span {
+    font-size: 0.5rem;
+    margin-left: -2px;
+  }
+
+  .day-weather-item > p {
+    font-size: 0.925rem;
+  }
+
+  .day-weather-item > div > p:first-child {
+    font-size: 0.875rem;
+  }
+  
+  .day-weather-item > div > p:last-child {
+    font-size: 0.875rem;
+  }
+}
